@@ -12,7 +12,7 @@ from textblob import TextBlob
 
 from pdf2image import convert_from_path
 dpi = 500 # dots per inch
-pdf_file = 'pdf.pdf'
+pdf_file = 'pdf-sample.pdf'
 pages = convert_from_path(pdf_file ,dpi )
 for i in range(len(pages)):
    page = pages[i]
